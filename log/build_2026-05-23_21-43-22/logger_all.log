@@ -1,0 +1,85 @@
+[0.548s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--base-paths', 'my_turtlebot']
+[0.549s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['my_turtlebot'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76ae00a82720>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76ae00b9ce90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76ae00b9ce90>>)
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.752s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.752s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aeem/Downloads/robot/my_turtlebot'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(my_turtlebot) by extensions ['ignore', 'ignore_ament_install']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(my_turtlebot) by extension 'ignore'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(my_turtlebot) by extension 'ignore_ament_install'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(my_turtlebot) by extensions ['colcon_pkg']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(my_turtlebot) by extension 'colcon_pkg'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(my_turtlebot) by extensions ['colcon_meta']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(my_turtlebot) by extension 'colcon_meta'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(my_turtlebot) by extensions ['ros']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(my_turtlebot) by extension 'ros'
+[0.892s] DEBUG:colcon.colcon_core.package_identification:Package 'my_turtlebot' with type 'ros.ament_python' and name 'my_turtlebot'
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.984s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/jazzy
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'cmake_target' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'cmake_clean_first' from command line to 'False'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'cmake_force_configure' from command line to 'False'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'ament_cmake_args' from command line to 'None'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.192s] DEBUG:colcon.colcon_core.verb:Building package 'my_turtlebot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aeem/Downloads/robot/build/my_turtlebot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aeem/Downloads/robot/install/my_turtlebot', 'merge_install': False, 'path': '/home/aeem/Downloads/robot/my_turtlebot', 'symlink_install': False, 'test_result_base': None}
+[1.192s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.197s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aeem/Downloads/robot/my_turtlebot' with build type 'ament_python'
+[1.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_turtlebot', 'ament_prefix_path')
+[1.211s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeem/Downloads/robot/install/my_turtlebot/share/my_turtlebot/hook/ament_prefix_path.ps1'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeem/Downloads/robot/install/my_turtlebot/share/my_turtlebot/hook/ament_prefix_path.dsv'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeem/Downloads/robot/install/my_turtlebot/share/my_turtlebot/hook/ament_prefix_path.sh'
+[1.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.440s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'my_turtlebot' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.441s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aeem/Downloads/robot/my_turtlebot'
+[2.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aeem/Downloads/robot/my_turtlebot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aeem/Downloads/robot/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_turtlebot build --build-base /home/aeem/Downloads/robot/build/my_turtlebot/build install --record /home/aeem/Downloads/robot/build/my_turtlebot/install.log --single-version-externally-managed install_data
+[10.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aeem/Downloads/robot/my_turtlebot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/aeem/Downloads/robot/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_turtlebot build --build-base /home/aeem/Downloads/robot/build/my_turtlebot/build install --record /home/aeem/Downloads/robot/build/my_turtlebot/install.log --single-version-externally-managed install_data
+[10.412s] Level 1:colcon.colcon_core.environment:checking '/home/aeem/Downloads/robot/install/my_turtlebot' for CMake module files
+[10.416s] Level 1:colcon.colcon_core.environment:checking '/home/aeem/Downloads/robot/install/my_turtlebot' for CMake config files
+[10.420s] Level 1:colcon.colcon_core.environment:checking '/home/aeem/Downloads/robot/install/my_turtlebot/lib'
+[10.422s] Level 1:colcon.colcon_core.environment:checking '/home/aeem/Downloads/robot/install/my_turtlebot/bin'
+[10.422s] Level 1:colcon.colcon_core.environment:checking '/home/aeem/Downloads/robot/install/my_turtlebot/lib/pkgconfig/my_turtlebot.pc'
+[10.424s] Level 1:colcon.colcon_core.environment:checking '/home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages'
+[10.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_turtlebot', 'pythonpath')
+[10.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeem/Downloads/robot/install/my_turtlebot/share/my_turtlebot/hook/pythonpath.ps1'
+[10.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aeem/Downloads/robot/install/my_turtlebot/share/my_turtlebot/hook/pythonpath.dsv'
+[10.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aeem/Downloads/robot/install/my_turtlebot/share/my_turtlebot/hook/pythonpath.sh'
+[10.435s] Level 1:colcon.colcon_core.environment:checking '/home/aeem/Downloads/robot/install/my_turtlebot/bin'
+[10.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_turtlebot)
+[10.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeem/Downloads/robot/install/my_turtlebot/share/my_turtlebot/package.ps1'
+[10.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeem/Downloads/robot/install/my_turtlebot/share/my_turtlebot/package.dsv'
+[10.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeem/Downloads/robot/install/my_turtlebot/share/my_turtlebot/package.sh'
+[10.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeem/Downloads/robot/install/my_turtlebot/share/my_turtlebot/package.bash'
+[10.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeem/Downloads/robot/install/my_turtlebot/share/my_turtlebot/package.zsh'
+[10.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeem/Downloads/robot/install/my_turtlebot/share/colcon-core/packages/my_turtlebot)
+[10.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.458s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.460s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.510s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.510s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.511s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.657s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.659s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aeem/Downloads/robot/install/local_setup.ps1'
+[10.668s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aeem/Downloads/robot/install/_local_setup_util_ps1.py'
+[10.676s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aeem/Downloads/robot/install/setup.ps1'
+[10.681s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aeem/Downloads/robot/install/local_setup.sh'
+[10.684s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aeem/Downloads/robot/install/_local_setup_util_sh.py'
+[10.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aeem/Downloads/robot/install/setup.sh'
+[10.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aeem/Downloads/robot/install/local_setup.bash'
+[10.695s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aeem/Downloads/robot/install/setup.bash'
+[10.699s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aeem/Downloads/robot/install/local_setup.zsh'
+[10.701s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aeem/Downloads/robot/install/setup.zsh'
