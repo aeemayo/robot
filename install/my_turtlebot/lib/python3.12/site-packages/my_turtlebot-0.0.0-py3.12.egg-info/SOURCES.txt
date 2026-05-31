@@ -1,3 +1,4 @@
+README.md
 package.xml
 setup.cfg
 setup.py
@@ -10,3 +11,4 @@ setup.py
 ../build/my_turtlebot/my_turtlebot.egg-info/zip-safe
 my_turtlebot/__init__.py
 my_turtlebot/teleop_key.py
+my_turtlebot/trajectory.py

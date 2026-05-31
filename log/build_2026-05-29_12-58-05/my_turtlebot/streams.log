@@ -1,0 +1,28 @@
+[7.248s] Invoking command in '/home/aeem/Downloads/robot/my_turtlebot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aeem/Downloads/robot/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_turtlebot build --build-base /home/aeem/Downloads/robot/build/my_turtlebot/build install --record /home/aeem/Downloads/robot/build/my_turtlebot/install.log --single-version-externally-managed install_data
+[9.692s] running egg_info
+[9.893s] writing ../build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO
+[9.894s] writing dependency_links to ../build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt
+[9.898s] writing entry points to ../build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt
+[9.898s] writing requirements to ../build/my_turtlebot/my_turtlebot.egg-info/requires.txt
+[9.899s] writing top-level names to ../build/my_turtlebot/my_turtlebot.egg-info/top_level.txt
+[10.304s] reading manifest file '../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[10.310s] writing manifest file '../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[10.312s] running build
+[10.313s] running build_py
+[10.315s] copying my_turtlebot/trajectory.py -> /home/aeem/Downloads/robot/build/my_turtlebot/build/lib/my_turtlebot
+[10.317s] copying my_turtlebot/teleop_key.py -> /home/aeem/Downloads/robot/build/my_turtlebot/build/lib/my_turtlebot
+[10.318s] running install
+[10.370s] running install_lib
+[10.574s] copying /home/aeem/Downloads/robot/build/my_turtlebot/build/lib/my_turtlebot/trajectory.py -> /home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages/my_turtlebot
+[10.575s] copying /home/aeem/Downloads/robot/build/my_turtlebot/build/lib/my_turtlebot/teleop_key.py -> /home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages/my_turtlebot
+[10.579s] byte-compiling /home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages/my_turtlebot/trajectory.py to trajectory.cpython-312.pyc
+[10.589s] byte-compiling /home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages/my_turtlebot/teleop_key.py to teleop_key.cpython-312.pyc
+[10.598s] running install_data
+[10.601s] running install_egg_info
+[10.806s] removing '/home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages/my_turtlebot-0.0.0-py3.12.egg-info' (and everything under it)
+[10.808s] Copying ../build/my_turtlebot/my_turtlebot.egg-info to /home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages/my_turtlebot-0.0.0-py3.12.egg-info
+[10.818s] running install_scripts
+[12.026s] Installing teleop_key script to /home/aeem/Downloads/robot/install/my_turtlebot/lib/my_turtlebot
+[12.029s] Installing trajectory script to /home/aeem/Downloads/robot/install/my_turtlebot/lib/my_turtlebot
+[12.030s] writing list of installed files to '/home/aeem/Downloads/robot/build/my_turtlebot/install.log'
+[12.209s] Invoked command in '/home/aeem/Downloads/robot/my_turtlebot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aeem/Downloads/robot/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_turtlebot build --build-base /home/aeem/Downloads/robot/build/my_turtlebot/build install --record /home/aeem/Downloads/robot/build/my_turtlebot/install.log --single-version-externally-managed install_data

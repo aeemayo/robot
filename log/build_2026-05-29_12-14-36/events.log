@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (my_turtlebot) JobQueued: {'identifier': 'my_turtlebot', 'dependencies': OrderedDict()}
+[0.000730] (my_turtlebot) JobStarted: {'identifier': 'my_turtlebot'}
+[0.097277] (-) TimerEvent: {}
+[0.198088] (-) TimerEvent: {}
+[0.300183] (-) TimerEvent: {}
+[0.400912] (-) TimerEvent: {}
+[0.501730] (-) TimerEvent: {}
+[0.602503] (-) TimerEvent: {}
+[0.703310] (-) TimerEvent: {}
+[0.804006] (-) TimerEvent: {}
+[0.904675] (-) TimerEvent: {}
+[1.005335] (-) TimerEvent: {}
+[1.106183] (-) TimerEvent: {}
+[1.206833] (-) TimerEvent: {}
+[1.307473] (-) TimerEvent: {}
+[1.408150] (-) TimerEvent: {}
+[1.509007] (-) TimerEvent: {}
+[1.609787] (-) TimerEvent: {}
+[1.712107] (-) TimerEvent: {}
+[1.812899] (-) TimerEvent: {}
+[1.913542] (-) TimerEvent: {}
+[2.014212] (-) TimerEvent: {}
+[2.114849] (-) TimerEvent: {}
+[2.215479] (-) TimerEvent: {}
+[2.316117] (-) TimerEvent: {}
+[2.416773] (-) TimerEvent: {}
+[2.517490] (-) TimerEvent: {}
+[2.618225] (-) TimerEvent: {}
+[2.719054] (-) TimerEvent: {}
+[2.819707] (-) TimerEvent: {}
+[2.920334] (-) TimerEvent: {}
+[3.021150] (-) TimerEvent: {}
+[3.121788] (-) TimerEvent: {}
+[3.222422] (-) TimerEvent: {}
+[3.323104] (-) TimerEvent: {}
+[3.423762] (-) TimerEvent: {}
+[3.524405] (-) TimerEvent: {}
+[3.625106] (-) TimerEvent: {}
+[3.725762] (-) TimerEvent: {}
+[3.826421] (-) TimerEvent: {}
+[3.927102] (-) TimerEvent: {}
+[4.027778] (-) TimerEvent: {}
+[4.128424] (-) TimerEvent: {}
+[4.229072] (-) TimerEvent: {}
+[4.329729] (-) TimerEvent: {}
+[4.430354] (-) TimerEvent: {}
+[4.531033] (-) TimerEvent: {}
+[4.631698] (-) TimerEvent: {}
+[4.732386] (-) TimerEvent: {}
+[4.833135] (-) TimerEvent: {}
+[4.933778] (-) TimerEvent: {}
+[5.034462] (-) TimerEvent: {}
+[5.135145] (-) TimerEvent: {}
+[5.235776] (-) TimerEvent: {}
+[5.336465] (-) TimerEvent: {}
+[5.437139] (-) TimerEvent: {}
+[5.537831] (-) TimerEvent: {}
+[5.638758] (-) TimerEvent: {}
+[5.676944] (my_turtlebot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/my_turtlebot', 'build', '--build-base', '/home/aeem/Downloads/robot/build/my_turtlebot/build', 'install', '--record', '/home/aeem/Downloads/robot/build/my_turtlebot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aeem/Downloads/robot/my_turtlebot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'aeem', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/aeem/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aeem', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/aeem/Downloads/robot', 'TERM_PROGRAM_VERSION': '1.120.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/240/usr/lib/x86_64-linux-gnu/gtk-3.0', 'NVM_BIN': '/home/aeem/.nvm/versions/node/v25.4.0/bin', 'NVM_INC': '/home/aeem/.nvm/versions/node/v25.4.0/include/node', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/aeem/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/240/usr/share/code/code', 'MANAGERPID': '1379', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1650', 'BUNDLED_DEBUGPY_PATH': '/home/aeem/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4163', 'NVM_DIR': '/home/aeem/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aeem', 'JOURNAL_STREAM': '9:16019', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'aeem', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/aeem/.nvm/versions/node/v25.4.0/bin:/home/aeem/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/aeem/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/aeem/Downloads/flutter/bin:/home/aeem/.cargo/bin:/home/aeem/Downloads/flutter/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aeem/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/aeem/.foundry/bin', 'SESSION_MANAGER': 'local/aeem:@/tmp/.ICE-unix/1596,unix/aeem:/tmp/.ICE-unix/1596', 'GTK_EXE_PREFIX': '/snap/code/240/usr', 'INVOCATION_ID': '85b3007d11104736ba2a662a72d24122', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/240/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/aeem/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e17316460be9e9fe.txt', 'VSCODE_INJECTION': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/aeem/.config/Code/User/workspaceStorage/32f46c9e1b530c79b74f5aebba11d70a/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/aeem/snap/code/240/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8OC1P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-12bd745bfe.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/aeem/snap/code/240/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'VSCODE_STABLE': '1', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VSCODE_NONCE': '572a8bd5-ac88-4d36-a659-d1891c8e6deb', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aeem/Downloads/robot/build/my_turtlebot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/home/aeem/snap/code/240/.local/share:/home/aeem/snap/code/240:/snap/code/240/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aeem/Downloads/robot/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.739084] (-) TimerEvent: {}
+[5.839756] (-) TimerEvent: {}
+[5.940439] (-) TimerEvent: {}
+[6.041146] (-) TimerEvent: {}
+[6.141793] (-) TimerEvent: {}
+[6.242475] (-) TimerEvent: {}
+[6.343181] (-) TimerEvent: {}
+[6.443856] (-) TimerEvent: {}
+[6.544516] (-) TimerEvent: {}
+[6.645233] (-) TimerEvent: {}
+[6.745942] (-) TimerEvent: {}
+[6.846590] (-) TimerEvent: {}
+[6.947292] (-) TimerEvent: {}
+[7.047923] (-) TimerEvent: {}
+[7.148584] (-) TimerEvent: {}
+[7.249285] (-) TimerEvent: {}
+[7.349987] (-) TimerEvent: {}
+[7.381709] (my_turtlebot) StdoutLine: {'line': b'running egg_info\n'}
+[7.450193] (-) TimerEvent: {}
+[7.528207] (my_turtlebot) StdoutLine: {'line': b'writing ../build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO\n'}
+[7.529315] (my_turtlebot) StdoutLine: {'line': b'writing dependency_links to ../build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt\n'}
+[7.530190] (my_turtlebot) StdoutLine: {'line': b'writing entry points to ../build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt\n'}
+[7.531080] (my_turtlebot) StdoutLine: {'line': b'writing requirements to ../build/my_turtlebot/my_turtlebot.egg-info/requires.txt\n'}
+[7.531956] (my_turtlebot) StdoutLine: {'line': b'writing top-level names to ../build/my_turtlebot/my_turtlebot.egg-info/top_level.txt\n'}
+[7.550396] (-) TimerEvent: {}
+[7.651064] (-) TimerEvent: {}
+[7.751803] (-) TimerEvent: {}
+[7.825040] (my_turtlebot) StdoutLine: {'line': b"reading manifest file '../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[7.835494] (my_turtlebot) StdoutLine: {'line': b"writing manifest file '../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[7.836634] (my_turtlebot) StdoutLine: {'line': b'running build\n'}
+[7.837407] (my_turtlebot) StdoutLine: {'line': b'running build_py\n'}
+[7.838332] (my_turtlebot) StdoutLine: {'line': b'copying my_turtlebot/trajectory.py -> /home/aeem/Downloads/robot/build/my_turtlebot/build/lib/my_turtlebot\n'}
+[7.839865] (my_turtlebot) StdoutLine: {'line': b'running install\n'}
+[7.851963] (-) TimerEvent: {}
+[7.878434] (my_turtlebot) StdoutLine: {'line': b'running install_lib\n'}
+[7.952161] (-) TimerEvent: {}
+[8.020468] (my_turtlebot) StdoutLine: {'line': b'copying /home/aeem/Downloads/robot/build/my_turtlebot/build/lib/my_turtlebot/trajectory.py -> /home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages/my_turtlebot\n'}
+[8.024487] (my_turtlebot) StdoutLine: {'line': b'byte-compiling /home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages/my_turtlebot/trajectory.py to trajectory.cpython-312.pyc\n'}
+[8.030521] (my_turtlebot) StdoutLine: {'line': b'running install_data\n'}
+[8.031748] (my_turtlebot) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.052368] (-) TimerEvent: {}
+[8.153521] (-) TimerEvent: {}
+[8.183461] (my_turtlebot) StdoutLine: {'line': b"removing '/home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages/my_turtlebot-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[8.187880] (my_turtlebot) StdoutLine: {'line': b'Copying ../build/my_turtlebot/my_turtlebot.egg-info to /home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages/my_turtlebot-0.0.0-py3.12.egg-info\n'}
+[8.206915] (my_turtlebot) StdoutLine: {'line': b'running install_scripts\n'}
+[8.253756] (-) TimerEvent: {}
+[8.354527] (-) TimerEvent: {}
+[8.455229] (-) TimerEvent: {}
+[8.555868] (-) TimerEvent: {}
+[8.656594] (-) TimerEvent: {}
+[8.757319] (-) TimerEvent: {}
+[8.857966] (-) TimerEvent: {}
+[8.958638] (-) TimerEvent: {}
+[9.059346] (-) TimerEvent: {}
+[9.082382] (my_turtlebot) StdoutLine: {'line': b'Installing teleop_key script to /home/aeem/Downloads/robot/install/my_turtlebot/lib/my_turtlebot\n'}
+[9.083510] (my_turtlebot) StdoutLine: {'line': b'Installing trajectory script to /home/aeem/Downloads/robot/install/my_turtlebot/lib/my_turtlebot\n'}
+[9.085033] (my_turtlebot) StdoutLine: {'line': b"writing list of installed files to '/home/aeem/Downloads/robot/build/my_turtlebot/install.log'\n"}
+[9.159611] (-) TimerEvent: {}
+[9.219360] (my_turtlebot) CommandEnded: {'returncode': 0}
+[9.260802] (-) TimerEvent: {}
+[9.290740] (my_turtlebot) JobEnded: {'identifier': 'my_turtlebot', 'rc': 0}
+[9.296361] (-) EventReactorShutdown: {}

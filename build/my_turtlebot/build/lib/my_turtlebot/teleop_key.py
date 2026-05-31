@@ -3,11 +3,13 @@
 import select
 import sys
 import termios
+import time
 import tty
 
 import rclpy
-from geometry_msgs.msg import TwistStamped
+from geometry_msgs.msg import Twist, TwistStamped
 from rclpy.node import Node
+from std_msgs.msg import Header
 
 LINEAR_SPEED = 0.2
 ANGULAR_SPEED = 0.5
@@ -18,7 +20,7 @@ class TeleopKey(Node):
 
     def __init__(self) -> None:
         super().__init__("teleop_key")
-        self.publisher_ = self.create_publisher(TwistStamped, "/cmd_vel", 10)
+        self.pub = self.create_publisher(TwistStamped, "/cmd_vel", 10)
         self.linear = 0.0
         self.angular = 0.0
         self.create_timer(0.1, self._on_timer)
@@ -31,10 +33,11 @@ class TeleopKey(Node):
 
     def _publish_twist(self, linear: float, angular: float) -> None:
         msg = TwistStamped()
+        msg.header.frame_id = "base_link"
         msg.header.stamp = self.get_clock().now().to_msg()
         msg.twist.linear.x = linear
         msg.twist.angular.z = angular
-        self.publisher_.publish(msg)
+        self.pub.publish(msg)
 
     def _handle_key(self, key: str) -> None:
         key_upper = key.upper()
