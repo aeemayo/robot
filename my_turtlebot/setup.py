@@ -19,6 +19,7 @@ setup(
         "console_scripts": [
             "teleop_key = my_turtlebot.teleop_key:main",
             "trajectory = my_turtlebot.trajectory:main",
+            "avoid = my_turtlebot.avoid:main",
         ],
     },
 )

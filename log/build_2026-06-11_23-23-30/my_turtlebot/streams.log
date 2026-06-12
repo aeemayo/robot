@@ -1,0 +1,19 @@
+[7.265s] Invoking command in '/home/aeem/Downloads/robot/build/my_turtlebot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aeem/Downloads/robot/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aeem/Downloads/robot/build/my_turtlebot/build --no-deps symlink_data
+[10.210s] running develop
+[12.289s] running egg_info
+[12.489s] writing my_turtlebot.egg-info/PKG-INFO
+[12.493s] writing dependency_links to my_turtlebot.egg-info/dependency_links.txt
+[12.494s] writing entry points to my_turtlebot.egg-info/entry_points.txt
+[12.495s] writing requirements to my_turtlebot.egg-info/requires.txt
+[12.496s] writing top-level names to my_turtlebot.egg-info/top_level.txt
+[12.917s] reading manifest file 'my_turtlebot.egg-info/SOURCES.txt'
+[12.923s] writing manifest file 'my_turtlebot.egg-info/SOURCES.txt'
+[13.159s] running build_ext
+[13.160s] Creating /home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages/my-turtlebot.egg-link (link to .)
+[13.165s] Installing avoid script to /home/aeem/Downloads/robot/install/my_turtlebot/lib/my_turtlebot
+[13.167s] Installing teleop_key script to /home/aeem/Downloads/robot/install/my_turtlebot/lib/my_turtlebot
+[13.171s] Installing trajectory script to /home/aeem/Downloads/robot/install/my_turtlebot/lib/my_turtlebot
+[13.174s] 
+[13.175s] Installed /home/aeem/Downloads/robot/build/my_turtlebot
+[13.176s] running symlink_data
+[13.402s] Invoked command in '/home/aeem/Downloads/robot/build/my_turtlebot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aeem/Downloads/robot/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aeem/Downloads/robot/install/my_turtlebot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aeem/Downloads/robot/build/my_turtlebot/build --no-deps symlink_data
